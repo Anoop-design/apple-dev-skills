@@ -1,0 +1,743 @@
+{
+  "snapshot_date": "2026-10-16",
+  "status": "reviewed-initial-release",
+  "license_status": "applied",
+  "skills": [
+    {
+      "name": "app-intents-siri",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "6c292ebe92fc90b2bc1234288036060fe31ec0417f64aa834f70fa0be35a11a9",
+        "references/app-schemas.md": "2ec118ef0f7d75615879fb0e386318fdf6e0e951f97b2667bb62c70127648863",
+        "references/entities-and-queries.md": "090d495af1669a92615b5ea2dd2e8a45bbde79967694ad05f0fda0a9bd940ebd",
+        "references/siri-integration.md": "dc543b65cf7649c66a2935bbe59b1b64af55c9e5420742983324521ab7cf73db",
+        "references/testing-and-migration.md": "2540480e6c2e84b47c28ce1d8311e99336189f434c6a3413e3911f2668f9dbf4"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/app-schemas.md",
+        "references/entities-and-queries.md",
+        "references/siri-integration.md",
+        "references/testing-and-migration.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "be56a93b51735ce6f01b2eeb7b5a842def82fefb9d787dd7464d7f3d120afb8c",
+        "references/app-schemas.md": "3b625789767502eae7bab7978dd6e7667a359fcd9f523bef57e1fcd0d0afae33",
+        "references/entities-and-queries.md": "fadca086ea0acadf629020d86a9d3e6a452554009f6fe7e30e04ca8dd0f7cde4",
+        "references/siri-integration.md": "e19ff39c4d0034db6e92796d658b087f3225cdfecb4fd2a5f9c53f035659b2c8",
+        "references/testing-and-migration.md": "1860a3f5076231852dd74ac8616cfa26dcb7392c828168a83800d543ff08834f"
+      }
+    },
+    {
+      "name": "apple-intelligence-ios",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "75771d47a08c12a0b1bcb3c516c55bebb83b2a7fef06e425e27d8ac2d2bc999a",
+        "references/app-intents-siri.md": "5f021591276c25108d48f3a999ffcf56fb4deb355eafa9b8ec414750b9bd5601",
+        "references/foundation-models-api.md": "1b019e9d58aaafbdeeb017c7a832a73d347889350bdcbcb961595a2403e20d55",
+        "references/guided-generation-patterns.md": "a1b4c91a4246e99a70c08ca4de47a8a18c4b6e84fa8cf4a0a31d72f1e5dda41c",
+        "references/system-ai-ui.md": "ecc65a0c8e8c12c5c72b228e87d9cdbf230e4c54b7a6580c1402c3dcd9548cb3",
+        "references/testing-strategies.md": "05d8eec0c794372b431d520192127da16367f1d96a045152ae77ff86ff3c93e0"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/system-ai-ui.md",
+        "references/testing-strategies.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [
+        "references/app-intents-siri.md",
+        "references/foundation-models-api.md",
+        "references/guided-generation-patterns.md"
+      ],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "e82ed607233e115039644db0af13c9fb9f96aa200d4974575f6464668d18ed27",
+        "references/system-ai-ui.md": "3a8989de92cc422b82b15445908f3392ae42659c6694f716529ab2a912a4967b",
+        "references/testing-strategies.md": "ba9cfd66e317e6b11a3c2b09648cb3b62f3c265e90029ec3463fc4821551ab23"
+      }
+    },
+    {
+      "name": "apple-intelligence-ml",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "6714d95d4dfa6e28b5e731009b22e06bdf17c7c9e0cd0840fac94eb845d51abc",
+        "references/coreml-optimization.md": "cdb9ddc167496a08087952e397031c836ed59e906831dbbb13010a96e5698435",
+        "references/foundation-models-guide.md": "89dced50480b454b78293861ef10f84f9e818f77e9984932a022a245e37dff46",
+        "references/framework-patterns.md": "ea7e5b9209219ce0b74f97251e6629bc66ebc177058ab03162fb6752364eba9e",
+        "references/vision-recipes.md": "0000b69836282444dd623bfd0baa17e0916969bcf81d77e18b93858996c65f3f"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/coreml-optimization.md",
+        "references/framework-patterns.md",
+        "references/vision-recipes.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [
+        "references/foundation-models-guide.md"
+      ],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "37ba33cd7dadbe3437f312931f56df7df6d0689db37c85bcb00ec68655569150",
+        "references/coreml-optimization.md": "514d4b6bde0691808d96283c8b3050eb91311c16b5c8e015b910a15b7aeade63",
+        "references/framework-patterns.md": "c0eee3bdce1b22c6047c2b99bbe419f72218a2b8f2cdbefaae9cb1f4ef5b27ed",
+        "references/vision-recipes.md": "c3679154f409ce5a280cee87a29d06d00a9b4f655c74dbf59419680044fba28b"
+      }
+    },
+    {
+      "name": "cloudkit",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "ce88b2afab40e956afc9c9d40854f619a1dcd574f870f6076474d654179e425a",
+        "references/records-and-queries.md": "79c139b1a45418a63ffbc10f9a4f18ff847e86fc12235de65899c1d54894886e",
+        "references/security-and-production.md": "c5d8db4ec11f4f0b4a9a458834ae31530db29548d57ad778c41069bb003bb891",
+        "references/sharing.md": "4cb2d5537581afa2e33878cff53c10ac5b8bc0d28898ea0b4c2c10db6deba43d",
+        "references/stack-decision-and-setup.md": "5936e089149d8918d34f447a0e3a06fbf71b5bf96545d3ba19ff6f09db3e5271",
+        "references/swiftdata-and-coredata.md": "3964b82f2dd04505a4e71ee6dba9cd57df61cfd13aa738ba53f79df73393d0b6",
+        "references/sync-engine-and-push.md": "a5ab476f89438f8ffe9fb35d7c5c2a770b880068eb7ae625cc5fac1f879c6e27"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/records-and-queries.md",
+        "references/security-and-production.md",
+        "references/sharing.md",
+        "references/stack-decision-and-setup.md",
+        "references/swiftdata-and-coredata.md",
+        "references/sync-engine-and-push.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "f243c0ebe31084baa3e8fa596cd8505a4b88aab5973cb805c3fa85aca4a67a07",
+        "references/records-and-queries.md": "1cea05809159095408e97b48cecf794b549333ca9affebc9489103926e0688bd",
+        "references/security-and-production.md": "ba53c7d66d5d150ced7f7401043cc7dc3393956beca88279d5a899dec6f3ac79",
+        "references/sharing.md": "8f2e2ff6be4c3bb7046c61ea55522b8e3350eab3aa7a14ba022360012a30b941",
+        "references/stack-decision-and-setup.md": "9ce110a34792e9bd85e3f01b063a7a5806fb92e654a6e7669c310ad065f627ca",
+        "references/swiftdata-and-coredata.md": "2d165676947b4332d80804aaabd1dc5f04920dbe52b298d038dfb3eb92a529a1",
+        "references/sync-engine-and-push.md": "031fbee72e9e31e274c753afd1eb3e5a704b40d0379cc23ec69cf35c8896c86d"
+      }
+    },
+    {
+      "name": "core-animation-uikit",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "ddbe5078678f66d435e457ad992ea12c4665179a8d1b6d2a44fef37afb6c553d",
+        "references/animatable-properties.md": "eb4e6b1f4336066824a180594ec48c71e0b89a90562962de923e8fdd6cc54c61",
+        "references/layer-types.md": "20409390b59d175e63776f3c053326d0e8026d9c77a932636920567ba94f50d5",
+        "references/performance-checklist.md": "e415afd83432e93a5c82335c0b0d101d44b9505c247c80267e949c351283dc78",
+        "references/uikit-swiftui-bridge.md": "8ad9b552b98e0e40de9a590dabf4ec4c4437f2dad3472d0258d047022cd35793"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/animatable-properties.md",
+        "references/layer-types.md",
+        "references/performance-checklist.md",
+        "references/uikit-swiftui-bridge.md"
+      ],
+      "added_files": [
+        "LICENSE",
+        "references/animation-guide.md"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "cb82796ad11c2875c23c0d7062e52c7e4755d69daac5f3fa702523a0a2791bad",
+        "references/animatable-properties.md": "3af85c87ab3fca12cb94fb20cbe21edf4a5e84983ac9fad8fe5240b06bca881e",
+        "references/animation-guide.md": "6ea96d6c80bf1c4c25cba3fc1ddceab63814a5a488b9873eef1d86473553f100",
+        "references/layer-types.md": "40711288e5cfbc53621c36e54b9b9c513404936b42f78cb51e1d6d91e212cd34",
+        "references/performance-checklist.md": "b283f64cece2efdafc37086db65647a7fae24671d4d10ac27d8ac08ca918a1a9",
+        "references/uikit-swiftui-bridge.md": "e4d0213f7edb03b4ea81a035e5de728576388ee9c7e411e7b0d0d48a31d1ea39"
+      }
+    },
+    {
+      "name": "foundation-models",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "24c380de72d58fcd7e4c97dac3d756b1f3edabbd82c035494eecb0ab55595f59",
+        "references/version-notes.md": "38ab2fa52ccd0865cedf8e32924df6a9ca8265a8a409e8cfbf72fe299eb7d368"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/version-notes.md"
+      ],
+      "added_files": [
+        "LICENSE",
+        "references/foundation-models-api.md",
+        "references/foundation-models-guide.md",
+        "references/guided-generation-patterns.md",
+        "references/testing-strategies.md"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "d363cb15f95355a2407e0addf0a14283b0f7bdfa1cb7dee689abdac511d41761",
+        "references/foundation-models-api.md": "2f8fa510d8ed721973ccb8e82b3e33b504a72a18d0291ba61d1e6a6df9cdca86",
+        "references/foundation-models-guide.md": "0ed784665f1c75169f9bfcff85308ae3e1f5447d30bc989ba0afba95432c483e",
+        "references/guided-generation-patterns.md": "b867784610363a1ea2f690b0cd4dc8f7cc601107455d89fcac13a43580fabefe",
+        "references/testing-strategies.md": "126a680073bf7aa50be7bea570de8cb19c18f6422acfb9d74fb8308bb6393192",
+        "references/version-notes.md": "9602b06a089b1bb52e418deb1c1a59d1ccff64856183214e3d04a722d716e5e4"
+      }
+    },
+    {
+      "name": "healthkit",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "c8441afb0f7d31f019a8cba51a4e256284254baee9aa0e694d801ce5ee00a137",
+        "references/authorization-and-setup.md": "a6b8d63db902c2a7d517a7105037db316db22e4c29fb437bd9cfdb11f7b8163f",
+        "references/privacy-and-review.md": "21b32cd7e1f913aa32ea31a8618954e44ec72f287555c92dfc0e24741988c643",
+        "references/reading.md": "f3c3df41287c450507a4ac806d2d441cf78d31619bfb4633e1e2575518f77b18",
+        "references/specialized-data.md": "1348cf1d271454def960c8dc46732bae6b7b5e923f317c10a934d6d88873b3ae",
+        "references/workouts.md": "fd3c9ec06e179ac5166fd8aa59854558f8013e4554f079ba5a9713d4608055a9",
+        "references/writing.md": "10e77b882abc2c8b273b42e4ea5e8cb152f7c68bb7a7fde281f57b03265bc0af"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/authorization-and-setup.md",
+        "references/privacy-and-review.md",
+        "references/reading.md",
+        "references/specialized-data.md",
+        "references/workouts.md",
+        "references/writing.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "c2c1277b96741da5849b9c1fa6b0429a2286da82ae988738567f58a495c3fde0",
+        "references/authorization-and-setup.md": "4d0ebe14540e8a6b2f3cb91f159c22d1849e9f2e3911238e1ad7ab89b2526377",
+        "references/privacy-and-review.md": "7333764aa0456660516a2778647058fbb26d8c216a4368191e791fca9f6489b5",
+        "references/reading.md": "420ab954717ae31b65c2248cb921a1ad715ff072e9c6929c9ededdef921a5f45",
+        "references/specialized-data.md": "19d73c3a961a117ca98252ea8f50d78536ecdae5daef963eedaac6fa6d4e5963",
+        "references/workouts.md": "4af34a221cd1695b892c7b6ab8e533ce72fc995c47c77a66d0a6d0b728776da1",
+        "references/writing.md": "528bc6c16126f29276871fc69f9563cf3788912107294d3aae0ea7f82344f9f5"
+      }
+    },
+    {
+      "name": "ios-adaptive-layout",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "5c10f21ebc0fe34377c782d10021991ac4a070be8c8f1a2a7607d47369ff1817",
+        "agents/openai.yaml": "42d9d25def6b6e8654ba474841382400bed25745306b8cf85d72f5d75796df02",
+        "references/adaptive-layout-guide.md": "92b91ac4ddf520b7357ba66cd3e7c46e683570f8783835a1c6eff01ffedf5a53"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/adaptive-layout-guide.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "49e5f503dbdc2673ee80ef41ebe0fe7c08b892b787224ac2f26b6f002dae9145",
+        "agents/openai.yaml": "42d9d25def6b6e8654ba474841382400bed25745306b8cf85d72f5d75796df02",
+        "references/adaptive-layout-guide.md": "15ff0ee6d0ae990c8848b4f67a1e2b939c111c77b000daa26242e1287bdee831"
+      }
+    },
+    {
+      "name": "ios-animations-guide",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "a48f63eaddecc65e6999833c0929630867209444e8bdacd3f61025a79078fb34",
+        "references/animation-decision-tree.md": "e3a1ad33564a83d8c07015b6b97aa14580ea074b8a37c8d7c5d332d957ec4a9f",
+        "references/keyframe-patterns.md": "74620cd6e6670268dee0a2fbd2125ed1a2c8507e42cf86df01efaa90af32c912",
+        "references/spring-tuning.md": "7a712f43c68077e5c72e69ecc896077b7a9c65a392a752ee4061c0c286a7a4f8",
+        "references/transition-catalog.md": "c2e1bb16cb5f91c605335f11320375d8c8a6005b064143bf01fe3cfd8d007142"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/animation-decision-tree.md",
+        "references/keyframe-patterns.md",
+        "references/spring-tuning.md",
+        "references/transition-catalog.md"
+      ],
+      "added_files": [
+        "LICENSE",
+        "references/animation-guide.md"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "7070bdf931d1f925b59857f403cc0e7f49b3d08183098a3fbf1068306db030dc",
+        "references/animation-decision-tree.md": "a92760d5e4941bade123d4b03a54f4d9c7d6ad11cabf2991fd1b3539f044328e",
+        "references/animation-guide.md": "c65000af5ef8b2e7245c27e970ef2ded5e75194f8312cc4329eaa19ae376ad29",
+        "references/keyframe-patterns.md": "f1758cbab972273fb70c971e556cd323e5147801a1a45f751c9b28e745484861",
+        "references/spring-tuning.md": "054b07f89e1584b3d1e4ec8c6e97f63efaa6651eca025d3f4f4d6adbc2989e21",
+        "references/transition-catalog.md": "78642ad8cd7d8b99d03b1894269cb23bd0edc92cb1d7e75a3b8fae913e488f02"
+      }
+    },
+    {
+      "name": "ios-polished-apps",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "dfc6c8970b4ebb807f2f99cf9fd3f25a7b8b5debce7e8d5c8a128dffd9aabddd",
+        "references/hig-patterns.md": "6fa88015d4d16bf767ad6ba49a0114e336d7e8a7943da451f822628aa93cd506",
+        "references/performance-checklist.md": "22a6d7a4ade5080a16dd56ba523d15b58bce84e857ad035915558e0e3cce6242",
+        "references/review-checklist.md": "0c8624ee082ce98a540cd5567126d016330c17afd0e85c68c7dc0e26c0510256"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/hig-patterns.md",
+        "references/performance-checklist.md",
+        "references/review-checklist.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "c142062fcf1e3ef402252e770beea42773944464df85b7a06b46e8ec74cc8320",
+        "references/hig-patterns.md": "469e55a2b8e8126add6ca117bdfb1d39e52b286338df9968fb5b3b9ec68db704",
+        "references/performance-checklist.md": "09dcd39f1445a900905863c11edc1b55bc88489b5209c697d00a75a44019ebc7",
+        "references/review-checklist.md": "9d83803a591c73abf061ca1206b90d924ad20de889b1b5b95b582d97c4db1498"
+      }
+    },
+    {
+      "name": "ios-shipping-engineer",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "b2f0e61b515884c3fd4b3b7a6f752d56a86ac8a3154aaba28389abbb36d1cebe"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "5d4d9f8a0a58fefda47e43fab5619ec292503bd4b1da8a3844d371a481ccf18a"
+      }
+    },
+    {
+      "name": "iphone-duo-readiness",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "e8951fe032d6e5878b1a51dffa0aa3f0d249ea04dbee93cb170b2c2de6fe9964",
+        "agents/openai.yaml": "bb3bb4214ea47f21a32f1762870481184c9e30e8288a21cb33eff7e814e0dadc",
+        "references/apple-guidelines.md": "b00cc01ae455117ffcbb21022a94a9b117ac7b6bbc4e42ab4318beca558db1ea",
+        "references/sdk-reference.md": "5463a9ff8e68d9801767f3613cb874c6866d7b67c4ccc359315c5860be7ca175",
+        "references/verification.md": "1aa0ba4d693ce366e45a8726b51c87c83eb21dd1a69d7dfaf23bf0ead0eaefaf"
+      },
+      "technical_review": "current-documentation-review; 27.1 declarations retained as explicitly dated historical evidence",
+      "changed_files": [
+        "SKILL.md",
+        "references/apple-guidelines.md",
+        "references/sdk-reference.md",
+        "references/verification.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "277416ae7affaf7b2a3e8ce36f8a24732c25392d3438e87dd4ac53dfc128a345",
+        "agents/openai.yaml": "bb3bb4214ea47f21a32f1762870481184c9e30e8288a21cb33eff7e814e0dadc",
+        "references/apple-guidelines.md": "431efb55c60d23c560ee7c70a468955e78782e44a90bf2185f8f060628f0fe54",
+        "references/sdk-reference.md": "9bffb8cd4ab07a061e5e239da809d05ba18b12996988c028cb983eef2d750488",
+        "references/verification.md": "d7c00c30e771be8a326c9cc027a253b916d60cefa990d6e7b68a01ff8d79054f"
+      }
+    },
+    {
+      "name": "liquid-glass",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "4d629ec903ff042cd3327d8e0a59c8496d378780e2975bd747c5c8fb693e806c",
+        "references/glass-patterns.md": "85cb49bb43039f7c38f488b769380e0eb1d662f62e952530d4d4fb5655164471",
+        "references/swiftui-glass-api.md": "6a63d93c4cafe600b3908e9a859b58810ef6058a818cdd2b48a80d6b44b08001",
+        "references/uikit-glass-api.md": "3920984d26367a883dae8e39b97146e68ec9ddafb6bc497d40f894a4bff96498"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/glass-patterns.md",
+        "references/swiftui-glass-api.md",
+        "references/uikit-glass-api.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "33d59688b0991cf926a8e8847a516de4f8be5faf0c30b591a3850d7ce4a1fa25",
+        "references/glass-patterns.md": "fd0fddbf0c6b0ac99653b7a0af2fdfd3a35e0a407457f97386a258d48f4562fa",
+        "references/swiftui-glass-api.md": "d95ab6bd65aeaccb7a1f14f349bdcbf31a100f2798c9c9e567d05e29e6e23d09",
+        "references/uikit-glass-api.md": "698a60429c2317119c6a5deb7f3f74d054014997459999838dcfd9fa5e1e0ff0"
+      }
+    },
+    {
+      "name": "mapkit-swiftui",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "ed7f52b4e1b5a9a70d05d868f9c12ed0ae17d85e4f852ba6b0bab61fac03b8c7"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md"
+      ],
+      "added_files": [
+        "LICENSE",
+        "references/core-workflows.md"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "29930280997d87e3aa5f534850450734c4474ec05b3b561e7a4679b01bceaac0",
+        "references/core-workflows.md": "17d399954e56e37a15c314f57b27370891c98174bf6225fb23039a77124573be"
+      }
+    },
+    {
+      "name": "storekit-monetization",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "fe1e036cf4dce32c072849ea68d0396741d98502b02dd1f64b038dec5af554d4",
+        "references/app-store-connect-ops.md": "c91129aa29e508d1e6793065bc4ba87087d762a674eac1ccf3b25f03579f111d",
+        "references/commission-and-compliance.md": "faa752daff49d8dfa87bbe913f2e4f35ff95eb98f0b5b5e39d800fe5eab25e45",
+        "references/commitment-plans.md": "60d15181b9095117afab90097a99506e87552cf6b9bcc2bf6ba13cb9e2868e1d",
+        "references/offers-and-retention.md": "ab4c128d0f5630d6bf0be37e07e4a37b4aff189a12131d8d027088ba573526cd",
+        "references/server-and-testing.md": "6c570b6bdf109325434303e38140a1bd48b65d590341243c591c515ce3a19b3e",
+        "references/storekit2-core.md": "16c9e8105fedca5e2d1972d70a7e029ec88ca0513268de4ecc6a1289dae1ee9b",
+        "references/subscription-models.md": "fc430d6b82839e29875eea6cdd278566869e403b41b860e98ed57146eb1ff840"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/app-store-connect-ops.md",
+        "references/commission-and-compliance.md",
+        "references/commitment-plans.md",
+        "references/offers-and-retention.md",
+        "references/server-and-testing.md",
+        "references/storekit2-core.md",
+        "references/subscription-models.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "79e503b88507387b578905f278105ba6fa959d24fc0f9763dfead338f3ba669d",
+        "references/app-store-connect-ops.md": "e6008409efd3963f425532e6bfaad7b11e94f387ac4a7b271bdd5e8921f98bc9",
+        "references/commission-and-compliance.md": "cbb5a2f4f0890ec66060b9697fbd02dc834e70d362dc097954922f5c13b78228",
+        "references/commitment-plans.md": "28d78efc9a005b3293424daeaaebc0266998f69edde2b4f7d4c974a32517f6cc",
+        "references/offers-and-retention.md": "d8b45074353f33e7fce35cfd2184a930dce3caa07128b18d28367ba85feab0e6",
+        "references/server-and-testing.md": "6ebb4d83700bf5dcec6af45ae2f4e63152c70a3162575fdc24822583981f1372",
+        "references/storekit2-core.md": "4754d041b732edd6f9f22c141adb2683cd694a34c976ff6c945255b8e9de32b4",
+        "references/subscription-models.md": "8ed4b1bc78e0eb38281e640c59d73871887c6cf8dc6e34f1494c82e600b00574"
+      }
+    },
+    {
+      "name": "swiftui-camera-capture",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "87b5cdbad24cf968f7c387a54cf3264e621b30835167e41158ea0e2df411ff22",
+        "references/avfoundation-setup.md": "c9845925357d96776ea5bdc70842e079c5e487b498d296eda2c28369bff7e8a4",
+        "references/photo-capture-patterns.md": "88d6bf20465405388cb194f9d0fff653061b3bcdf50dfb30ce1321e25df36338",
+        "references/troubleshooting.md": "db1b82020d6b57e4e8e66c21eb265684469c9ec86bbfd2f148d71d01364ad5d1"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/avfoundation-setup.md",
+        "references/photo-capture-patterns.md",
+        "references/troubleshooting.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "e058dc4d3816c00835f3c6c15c7457b560c1e8ab843d77b9ebb5c012fbed4c3a",
+        "references/avfoundation-setup.md": "714acb6bb0e4611d94861e2b7d5ac274f47d4926b00912b9679314000a4532c4",
+        "references/photo-capture-patterns.md": "ced7063885932ba14bc1d446cb0f175384dc51a3084acbda2f80098731fe7871",
+        "references/troubleshooting.md": "097fd5151f994efd9824960cb8b990c5f68c2b8606460666fad1521f5f41d072"
+      }
+    },
+    {
+      "name": "swiftui-modern",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "c0f6f693a31656860b9a60f4bb51c78baea713db875fd726d6967e167d339291",
+        "references/data-and-swiftdata.md": "b889eaa649697123f40c92258c477886a68d98d992b764eba2f8990f8b5678f9",
+        "references/liquid-glass-and-design.md": "9b78810deb31e644eeaa26fd3f120cc3cbb3acabf1cba41a91d5bb0b29733d86",
+        "references/performance.md": "994860bb4c20e7ae47f85354a781cb4dea7d0bc629c5a2e6cb1dd6596fca7ef4",
+        "references/state-and-architecture.md": "7fd4e93f5af4567a806efd9f981fb5cff6bcf91f33e16719cdcb8385b8c6f4d4",
+        "references/testing-and-accessibility.md": "c0d4ceddc51e8051298085f60f80fffd420223919ccadd805fc41186707f7ceb",
+        "references/whats-new-ios27.md": "07e6c8305457ea8354b073517d8c26043ee4dcfc2d4a1796394755d696656738"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/data-and-swiftdata.md",
+        "references/liquid-glass-and-design.md",
+        "references/performance.md",
+        "references/state-and-architecture.md",
+        "references/testing-and-accessibility.md",
+        "references/whats-new-ios27.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "a159e1a90eb92a60f7aa64d8a4dd956a432fc112075d167d10582f7b62deb6fb",
+        "references/data-and-swiftdata.md": "4cb24693b1037d16476b85ad1a24983dedd9470a15eadf6b7a413041c99a504d",
+        "references/liquid-glass-and-design.md": "f16c975baa5d04d7531562322a9f41d195c2c46ff8558f94bd8f13e005660ff9",
+        "references/performance.md": "ecf8dd47e868c2f3b2d707e3dc18c71df228b151e8bc964be1447f84d024e22f",
+        "references/state-and-architecture.md": "a694149c5824f4a5a92341f84e67020d397f38fb96cbbb18bdc5e3893af1f4d6",
+        "references/testing-and-accessibility.md": "7e3b9114d8ad574f153eb51903b68945548c29acde58d213ec64f468fc24be5a",
+        "references/whats-new-ios27.md": "9dc2ea8e81ef523de65dceccda74f59243298c111843b32db21c25aaa6d0c04c"
+      }
+    },
+    {
+      "name": "swiftui-native-design",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "236ab61b604186d5a04111f59b9ce3e54fd9a11740a76d051fc9d6f5578bac24",
+        "references/apple-app-patterns.md": "e573953e0aec9a317658146142d37aaa4530e090d35d31d05ff00025505bf338",
+        "references/hig-components.md": "b8e40bc270ebeb8f9f5a931e0f2c478056b7e19cf0c77ee16f9e9795f8612c34",
+        "references/liquid-glass-guide.md": "0a20714c7f44c55f760df212b4fb1f2a268a351e70de9e78a1633a291f8b06f5"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/apple-app-patterns.md",
+        "references/hig-components.md",
+        "references/liquid-glass-guide.md"
+      ],
+      "added_files": [
+        "LICENSE",
+        "references/design-guide.md"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "fb6902d3ac207296181c0fe9eb39fe97756b9fc782a084b3f5e6b6ca7a269b34",
+        "references/apple-app-patterns.md": "d7445a3625584c03fb6b89a9a2bf38837a580670a44d613681a5a6b9cb83aa8b",
+        "references/design-guide.md": "57077465081db12c8a4b5f624841b0ff0b18e5fc31a15061ace4d79a771774df",
+        "references/hig-components.md": "ff79c0fd4aba43fa3ddc4864f4e8a54b228d572dd8300a639d0d6fecf243fb5e",
+        "references/liquid-glass-guide.md": "42ecbc855e120f50a22792d279f0fd0a2508fac14ef717e46f1b5f0b3e72c47e"
+      }
+    },
+    {
+      "name": "swiftui-performance-profiling",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "3510ba112c4e433c10834110dbaac8dd7f6ebe39f70d27564771188f0575ec8a",
+        "references/instruments-workflows.md": "4b4b259cb0975822be80ea3f8b246b8d82a56cc6bd393be83812616c0440c138",
+        "references/migration-patterns.md": "e29d46b8bfd2208155d72088993979fd2adc6da1dc8513a6a86fe5ebde9810f5"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/instruments-workflows.md",
+        "references/migration-patterns.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "6708288b2eb11b9ce97d84214371a288da33932e2be10aa826871e6a68df447a",
+        "references/instruments-workflows.md": "a8cecf35b9983295d31b0511328378dd6be0ed324889de778b837eebf1c6b9ad",
+        "references/migration-patterns.md": "508d1620c224cccdc83aabb8b304166f25d8acedd7cb7772add3289712744b78"
+      }
+    },
+    {
+      "name": "swiftui-shaders",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "9066a3b81938d2443177c35a48b649c202c7abd5c484dcadd421bb53ae95594a",
+        "references/metal-reference.md": "020140058c48fe1bde7e37b8d909c80a5c233d11fd0ed50c693eae4fed105585",
+        "references/shader-api.md": "d4f70a814e92e33db10c3458badcc98f8a5215939f41a5e9abff2ae73283a234",
+        "references/shader-recipes.md": "31254b072a7db61aa1f3bd125e2ed6145baa8f2147548f833741a36287d486ec"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/metal-reference.md",
+        "references/shader-api.md",
+        "references/shader-recipes.md"
+      ],
+      "added_files": [
+        "LICENSE",
+        "references/shader-guide.md"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "125f1632780e11d60125bc5460a42a6d7862dfe804618dd7c6df52e1e55755be",
+        "references/metal-reference.md": "a50492f7c7c8c780fa93597ed3d07c837f70e5a3a5bff2b317e8428d291508dd",
+        "references/shader-api.md": "457b31f7dcdd7429097d19e63a06f96898ad5875a569dc6378d44c128153cc51",
+        "references/shader-guide.md": "681c990d7e75d0087a9d84533a673c35e43dd4c1377906b9e31098add8120d78",
+        "references/shader-recipes.md": "4f4597eb504d8b2e3373c66a1dcf56f68374e6366f6414f91f028d7f8315a4d7"
+      }
+    },
+    {
+      "name": "swiftui-widgets",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "68c1c4735279a019adba907cd59c623e9bec3b43e4540cf395b57a4452a22f5a",
+        "references/ios26-features.md": "74cfc580354cccdbd922b7164c8efea83b8e5fe02d8b7b6e187ac65a8822152d",
+        "references/live-activities.md": "2149de364dae8035604c70b994bb218ff387e2a5328a99a9f09b325818c1f213",
+        "references/widget-design.md": "5d8437e9a674256c1983b3fa9bda94cb2824981b0dd17eb14795c414f3d2aa64",
+        "references/widget-families.md": "504287133dcf26656518d219ad0e289821e8bfa43f52dc4fa4bcf56eec4a1dee"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/ios26-features.md",
+        "references/live-activities.md",
+        "references/widget-design.md",
+        "references/widget-families.md"
+      ],
+      "added_files": [
+        "LICENSE",
+        "references/timelines-and-configuration.md"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "2b19afdc2bf6a0745e605c3532612155d35d3047974aea09b6d10b6d0453456a",
+        "references/ios26-features.md": "5abba7cb68ecc6d5abcad3da885abda830d0122b974259e7b9327dd833470fe2",
+        "references/live-activities.md": "04393497b2198e909e303c976f2d8e8f87e28fddc6f08e73a22ead187aa7132c",
+        "references/timelines-and-configuration.md": "f21ae2908aa66c4701809786c2cd54f3696828ddd43b58d105a0edd3a7f8aebd",
+        "references/widget-design.md": "635375b9fcf5731cd669849c482082f1306f132aa15b4d3dac68eed3a2758911",
+        "references/widget-families.md": "8989eff7b364d7e0909174d154aca8ffdcc000177d2eeb9f313a05956de020eb"
+      }
+    },
+    {
+      "name": "swiftui-widgets-ios27",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "f6081a5c5d90241c2d37c6c3e92441f0fbed07339d2aef85363980941e75365d",
+        "references/ios27-notes.md": "84f50cebe830ea279fbb78d76b1ca25b62455bd0f74af9651ca691cb1bd109bb"
+      },
+      "technical_review": "documentation-and-sdk-review; see release audit for probe and runtime scope",
+      "changed_files": [
+        "SKILL.md",
+        "references/ios27-notes.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "755a85c0899c0bfe8c9cba242474669dfc364b1a6a8282dfb9f2a9ba22ea868e",
+        "references/ios27-notes.md": "eaaf2c24c66af64ac6847c68b860021d8455bcc5ebc2b2d62cfe7f09584de3db"
+      }
+    },
+    {
+      "name": "xcode-agentic",
+      "origin": "custom-local-skill",
+      "original_files": {
+        "SKILL.md": "4eaf4459b48665d42ce5c8da403cc14982268b3ea27aeb178c835d418425435b",
+        "references/agent-skills.md": "73dc44121fe7c047636f04a4a8853dd31aa4fcb7673dab4144d238c144768c03",
+        "references/device-hub-and-instruments.md": "131cd69c5b3cef64dfc2fd9218f0a9315bf61732e40fda4642e86e9fd482c6e6",
+        "references/mcp-tools.md": "355caaf3f8e3f27d1f8b12745e60e283823c988ee35eb6720e079a15271d61ad",
+        "references/setup-and-models.md": "317576c83405c4238ed9a80279f36b1135701157f2b57a4f61823a8aa22dd642",
+        "references/workflows.md": "4a5d09f1de78670231ea0cc4cea8b7cc542a288291f6401540d7d01c9d4963a3"
+      },
+      "technical_review": "documentation-and-installed-cli-help-review; live MCP and successful skill export not tested",
+      "changed_files": [
+        "SKILL.md",
+        "references/agent-skills.md",
+        "references/device-hub-and-instruments.md",
+        "references/mcp-tools.md",
+        "references/setup-and-models.md",
+        "references/workflows.md"
+      ],
+      "added_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "removed_files": [],
+      "release_files": {
+        "LICENSE": "f1c53183ec8196b3fe57e6b8fba0cb49d4fd929197e1625aa717096e30955c1a",
+        "SKILL.md": "c072823fa4fd2fac52693b8add7dd69f13f4dcc460e8c03344d57b94e9453b65",
+        "references/agent-skills.md": "947cb574b93ea53be4f6071953886f833dd3c4c367420882908b6b5a320c4daa",
+        "references/device-hub-and-instruments.md": "3f7d93049fdf07c105f16af01a92e41bcefdc0940ee7bcaa372e110786856e30",
+        "references/mcp-tools.md": "1111f9c96a10b1f22b1743320d4e86d2be32a4f593c324e919ee6dd33fbe18be",
+        "references/setup-and-models.md": "b55dacbff30c8b41abfa7525a477032b5417574911d8333a999349c97c669bc9",
+        "references/workflows.md": "90e892d0e920587e2d5ec29706812594ca55d189c7a86f8a004ad3f602af00d7"
+      }
+    }
+  ],
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Anoop",
+  "license_selected_date": "2026-10-16",
+  "repository": "https://github.com/Anoop-design/apple-dev-skills",
+  "review_date": "2026-10-16",
+  "verification": {
+    "toolchain": "Xcode 27.0 (27A266a); Swift 6.4; iOS 27.0 SDK",
+    "packaging": "23 skills pass repository and bundled skill-creator validators",
+    "python_regressions": "11 tests passed",
+    "swift_probes": [
+      "AIAndWidgets.swift",
+      "Camera.swift",
+      "Frameworks.swift",
+      "UI.swift"
+    ],
+    "swift_mode": "Swift 6, warnings as errors, typecheck only",
+    "metal": "Not compiled: optional Metal Toolchain is not installed",
+    "runtime": "No end-to-end app, physical device, or GPU rendering tests",
+    "details": "docs/RELEASE-AUDIT.md"
+  }
+}

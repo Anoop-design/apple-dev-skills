@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOS Adaptive Layout"
+  short_description: "Adapt and verify iPhone and iPad layouts"
+  default_prompt: "Use $ios-adaptive-layout to audit this app across iPhone and iPad, fix inconsistent widths and short-height layouts, preserve state through resizing, and prepare verified screenshots with an evidence report."
